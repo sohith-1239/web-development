@@ -34,7 +34,7 @@ body{
     margin-right: auto;
     border-radius: 20px;
     overflow: hidden;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .card img{
     width:100%
