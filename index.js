@@ -27,7 +27,7 @@ function randomUser(){
             var user=jsonData.results[0];
             var gender=user.gender;
             var fullName=user.name.title+" "+user.name.first+" "+user.name.last;
-            var img=user.picture.medium;
+            var img=user.picture.large;
             document.getElementById("user-name").innerHTML=fullName;
             document.getElementById("user-gender").innerHTML=gender;
             document.getElementById("user-image").src=img;
